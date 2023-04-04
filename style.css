@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  background-color: white;
+  height: 80vh;
+  width: 700px;
+  box-shadow: -0px -0px 20px #a4a4a4;
+  border-radius: 10px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 600;
+  margin: 15px;
+}
+
+.count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  width: 25px;
+  height: 25px;
+  background-color: #e7e6ef;
+  color: rgb(120, 120, 114);
+  border-radius: 15px;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #e9f5ff;
+}
+
+.card-container {
+  overflow: visible;
+}
+
+.first-container {
+  margin: 5px 25px;
+}
+
+.first-text {
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.second-text {
+  font-size: 17px;
+  color: #898891;
+  font-family: sans-serif;
+}
+
+.date > img {
+  width: 15px;
+  margin-top: 5px;
+}
+
+.date {
+  font-family: sans-serif;
+  color: rgb(253, 142, 142);
+}
+
+.input-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 10px;
+  background-color: white;
+  font-family: sans-serif;
+  box-shadow: -0px -0px 5px #a4a4a4;
+  padding: 15px;
+}
+
+.taskname {
+  width: 100%;
+  background-color: transparent;
+  border: 0px solid;
+  font-size: 17px;
+  outline: none;
+}
+
+.description {
+  width: 100%;
+  border: 1px solid #c4bcbc;
+  border-radius: 8px;
+  font-size: 15px;
+  font-family: sans-serif;
+  padding: 10px;
+  margin: 20px 0;
+  outline: none;
+  resize: none;
+}
+
+.date-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.date2 {
+  font-size: 15px;
+  border: 0px solid;
+  outline: none;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #a4a4a4;
+  height: 35px;
+  width: 95px;
+  margin-right: 10px;
+  border-radius: 10px;
+  font-size: 15px;
+  color: #6d6a6a;
+  background-color: white;
+}
+
+.btn-container {
+  display: flex;
+}
+
+.addtask {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #a4a4a4;
+  height: 35px;
+  width: 110px;
+  border-radius: 10px;
+  font-size: 15px;
+  color: white;
+  background-color: blueviolet;
+}
